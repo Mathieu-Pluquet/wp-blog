@@ -22,8 +22,6 @@
     </div> -->
     <?php wp_head(); ?>
 
-
-
     <!-- start of header -->
       <header>
         <nav class="">

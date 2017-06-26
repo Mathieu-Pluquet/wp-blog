@@ -34,23 +34,14 @@ function myFunction() {
 
 // compteur
 
-const timer = document.getElementById('timer');
-let counter = 0;
-const tableau = [];
-
-function countDown() {
-timer.textContent = counter;
-counter++;
+var timer = document.getElementById('timer');
+var augmenter = 0;
+function compteur() {
+timer.textContent = augmenter;
+augmenter++;
 }
 
-setInterval(countDown, 1000);
-
-document.body.addEventListener('click', function() {
-tableau.push(counter);
-console.log(tableau);
-});
-
-
+setInterval(compteur, 1000);
 
 // FONCTION DATE
 
